@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes somos?</title>
+    <style>
+        h1{
+            
+            margin: 0;
+            background: black;
+            color: white;
+        }
+        h2{
+            background-color: black;
+            color: white;
+        }
+        h4{
+            background-color: black;
+            color: white;
+        }
+
+        .contenedor-galeria{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: auto;
+
+        }
+        .galeria__img{
+            width: 400px;
+            height: 300px;
+            margin-bottom: 30px;
+            object-fit: cover;
+            cursor: pointer;
+            animation: escalar 1.5s infinite alternate;
+        }
+        @keyframes escalar{
+            to{
+                transform: scale(1);
+            }
+            from{
+                transform: scale(1.05);
+            }
+        }
+        a{
+            background: black;
+            color: red;
+            
+
+        }
+        body{
+            background-image: url(fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #ffffff;
+            
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center;">Quienes somos?</h1>
+<div class="contenedor-galeria">
+    <img src="VENTANAPEQUENA.jpg" alt="" class="galeria__img"></div>
+<h2 style="text-align: center;">Expertos en Banquetes y eventos</h2>
+<h4>
+    Nuestra empresa nació hace 42 años y en ese tiempo hemos hecho más de 2000 eventos de todo tipo que nos han brindado la experiencia. Hemos marcado tradición en muchas familias del área metropolitana que nos reconocen como proveedores exclusivos del Lienzo Charro del Pedregal por muchos años. Hoy nuestros horizontes se han ampliado y a petición de nuestros clientes, hoy contamos con una amplia lista de lugares en la CDMX, Cuernavaca, Metepec y sucursales en Cancún y HOUSTON TX hasta en el jardín de tu casa!.
+    <h3>
+<h2 style="text-align: center;">Historia</h2>
+<h4>
+    Desde nuestros primeros años nos enfocamos en el servicio de banquetes, creando paquetes adaptados a nuestros clientes. Los tiempos y tecnologías han cambiado y hoy nuestros servicios son artísticos, buscando formas distintas de ejecución, innovando en la variedad de montajes y platillos. Desarrollando procesos de producción más amigables, integrando (certificando) a nuestros proveedores en el servicio de excelencia en el desarrollo de la comunicación con nuestros clientes.
+    </h3>
+<h2 style="text-align: center;">Mision y Vision</h2>
+<h4>Hacer que nuestros clientes resulten satisfechos al realizar sus EVENTOS Y BANQUETES, BANQUETES DE BODAS, en SALONES Y JARDINES PARA BANQUETES, FIESTAS DE FIN DE AÑO con nosotros, haciendo que el costo beneficio sea el factor principal por lo que elijan a Experiencia como proveedor.
+    La visión que Experiencia tiene como empresa de SERVICIOS DE EVENTOS Y BANQUETES Y SALOS Y JARDINES PARA BANQUETES,es seguir siendo una empresa que cubra paquetes integrales que incluyan servicio de alimentos, diversión y animación a bajo precio con altos estándares de calidad siempre empeñados en lograr costo beneficio para nuestros clientes.</h3>
+<a href="./index.html">Regresar a inicio</a>
+</body>
+</html>
