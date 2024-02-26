@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <style>
+        h1{
+            margin: 0;
+            background: black;
+            color: white;
+        }
+        
+        h2{
+            background: black;
+            color: white;
+
+        }
+        .contenedor-galeria{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .contenedor-galeria2{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .contenedor-galeria3{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .galeria__img{
+            width: 400px;
+            height: 300px;
+            margin-bottom: 30px;
+            object-fit: cover;
+            cursor: pointer;
+            animation: escalar 1.5s infinite alternate
+        }
+        .galeria2__img{
+            width: 400px;
+            height: 300px;
+            margin-bottom: 30px;
+            object-fit: cover;
+            cursor: pointer;
+            animation: escalar 1.5s infinite alternate
+        }
+        .galeria3__img{
+            width: 400px;
+            height: 300px;
+            margin-bottom: 30px;
+            object-fit: cover;
+            cursor: pointer;
+            animation: escalar 1.5s infinite alternate
+        }
+        @keyframes escalar{
+            to{
+                transform: scale(1);
+            }
+            from{
+                transform: scale(1.05);
+            }
+        }
+        body{
+            background-image: url(fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #ffffff;
+        }
+        a{
+            background: black;
+            color: red
+        }
+    </style>
+</head>
+<body>
+<h1>Servicios que ofresemos:</h1>
+<h2>Los mejores platillos</h2>
+<div class="contenedor-galeria">
+    <img src="platillo 1.jpg" alt="" class="galeria__img">
+    <img src="platillo 2.jpg" alt="" class="galeria__img">
+    <img src="platillo 3.jpg" alt="" class="galeria__img">
+    <img src="platillo 4.jpg" alt="" class="galeria__img">
+</div>
+<h2>Montajes para todo tipo de eventos</h2>
+<div class="contenedor-galeria2">
+    <img src="montaje 1.jpg" alt="" class="galeria2__img">
+    <img src="montaje 2.jpg" alt="" class="galeria2__img">
+    <img src="montaje 3.jpg" alt="" class="galeria2__img">
+    <img src="montaje 4.jpg" alt="" class="galeria2__img">
+</div>
+<h2>El mejor lugar para tu evento</h2>
+<div class="contenedor-galeria3">
+    <img src="lugar 1.jpg" alt="" class="galeria3__img">
+    <img src="lugar 2.jpeg" alt="" class="galeria3__img">
+    <img src="lugar 3.jpg" alt="" class="galeria3__img">
+    <img src="lugar 4.jpg" alt="" class="galeria3__img">
+</div>
+<a href="../pagina 1/index.html">Regresar a inicio</a>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            margin: 0;
+            background: black;
+            color: white;
+        }
+
+        .contenedor-galeria{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: auto;
+
+        }
+        .galeria__img{
+            width: 400px;
+            height: 300px;
+            margin-bottom: 30px;
+            object-fit: cover;
+            cursor: pointer;
+            animation: escalar 1.5s infinite alternate;
+        }
+        @keyframes escalar{
+            to{
+                transform: scale(1);
+            }
+            from{
+                transform: scale(1.05);
+            }
+        }
+        a{
+            background: black;
+            color: red
+        }
+        body{
+            background-image: url(fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<h1>Galeria de Fotos</h1>
+<div class="contenedor-galeria">
+    <img src="foto 1.jpg" alt="" class="galeria__img">
+    <img src="foto 2.jpg" alt="" class="galeria__img">
+    <img src="foto 3.png" alt="" class="galeria__img">
+    <img src="foto 4.jpg" alt="" class="galeria__img">
+    <img src="foto 5.jpg" alt="" class="galeria__img">
+    <img src="foto 6.jpg" alt="" class="galeria__img">
+    <img src="foto 7.jpg" alt="" class="galeria__img">
+</div>
+
+<a href="../pagina 1/index.html">Regresar a inicio</a>
+
+    
+</body>
+</html>
